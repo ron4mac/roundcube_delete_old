@@ -1,7 +1,7 @@
 {
     "name": "ron4mac/delete_old",
     "type": "roundcube-plugin",
-    "description": "Plugin adds possibility to auto-delete messages in a folder that are older than a specfied amount.",
+    "description": "Plugin adds possibility to auto-delete messages in folders that are older than a specfied amount.",
     "keywords": ["autodelete","auto-delete","delete","old messages"],
     "license": "GPLv3+",
     "version": "1.0",
