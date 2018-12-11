@@ -150,7 +150,7 @@ class delete_old extends rcube_plugin
 	{
 		$mcnt = 0;
 		// get all folders with a setting
-		$dold = $this->rc->config->get('delete_old');
+		$dold = $this->rc->config->get('delete_old', array());
 	//	$this->logger('foldprefs ', $dold);
 		// get the global setting
 		$gdo = $this->rc->config->get('g_delete_old');
