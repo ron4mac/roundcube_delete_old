@@ -1,0 +1,21 @@
+#messagetoolbar a.button.clean {
+	background: url(delete_sweep28.png) 0 0 no-repeat;
+	background-position-x: center;
+}
+
+#rcmrowdeloldg .section {
+    background-position: 4px -1923px;
+}
+
+#rcmrowdeloldg.selected .section {
+    background-position: 4px -1947px;
+}
+
+#dstus {
+	font-size: larger;
+	height: 1.3em;
+}
+#dstus.busy {
+	background: url(../../../../skins/larry/images/ajaxloader.gif) no-repeat;
+	padding-left: 24px;
+}

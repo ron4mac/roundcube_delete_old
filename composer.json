@@ -1,0 +1,24 @@
+{
+    "name": "roundcube/delete_old",
+    "type": "roundcube-plugin",
+    "description": "Plugin adds possibility to auto-delete emails in a folder that are older than a specfied amount.",
+    "license": "GPLv3+",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Ron Crans",
+            "email": "ronjc@rjconline.net",
+            "role": "Contributor"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}

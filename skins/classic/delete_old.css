@@ -1,0 +1,13 @@
+#messagetoolbar a.button.clean {
+	text-indent: -5000px;
+	background: url(Clear32.png) 0 0 no-repeat;
+}
+
+#dstus {
+	font-size: larger;
+	height: 1.3em;
+}
+#dstus.busy {
+	background: url(../../../../skins/classic/images/display/loading_blue.gif) no-repeat;
+	padding-left: 24px;
+}
