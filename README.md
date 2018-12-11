@@ -11,4 +11,4 @@ In *Settings->Delete Old Messages*, you can specify a global timespan before mes
 Each folder (in *Settings->Folders*) can have a timespan setting for deletion.
 
 ### Use
-If automatic deletion is configured, messages older that the specified timespan(s) will be deleted on login or logout. You can check for or delete expired messages at any time from an icon on the Mail Toolbar.
+If automatic deletion is configured, messages older than the specified timespan(s) will be deleted on either login or logout (as configured). You can check for or delete expired messages at any time from an icon on the Mail Toolbar.
