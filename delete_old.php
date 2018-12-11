@@ -20,10 +20,8 @@ class delete_old extends rcube_plugin
 			$this->add_hook('preferences_update', array($this, 'update_settings'));
 		} elseif ($this->rc->task == 'login') {
 			$this->add_hook('login_after', array($this, 'login'));
-	//		$this->include_script('delete_old.js');
 		} elseif ($this->rc->task == 'logout') {
 			$this->add_hook('session_destroy', array($this, 'end_session'));
-	//		$this->include_script('delete_old.js');
 		} elseif ($tsk == 'mail' && ($this->rc->action == '' || $this->rc->action == 'show')) {
 			$this->includeCSS();
 			$this->include_script('delete_old.js');
@@ -153,7 +151,7 @@ class delete_old extends rcube_plugin
 		$mcnt = 0;
 		// get all folders with a setting
 		$dold = $this->rc->config->get('delete_old');
-		$this->logger('foldprefs ', $dold);
+	//	$this->logger('foldprefs ', $dold);
 		// get the global setting
 		$gdo = $this->rc->config->get('g_delete_old');
 		// get the storage object
@@ -163,10 +161,10 @@ class delete_old extends rcube_plugin
 		if ($gdo > 0) {
 			// get all the folder names
 			$a_folders = $storage->list_folders('', '*', null, null, true);
-			$this->logger('lifolders_b ', $a_folders);
+	//		$this->logger('lifolders_b ', $a_folders);
 			// remove ones that have their own setting
 			$a_folders = array_diff($a_folders, array_keys($dold));
-			$this->logger('lifolders_a ', $a_folders);
+	//		$this->logger('lifolders_a ', $a_folders);
 			$bd = $this->beforeDate($gdo);
 			foreach ($a_folders as $fld) {
 				$sch = $storage->search_once($fld,'UNDELETED BEFORE '.$bd);
@@ -174,7 +172,7 @@ class delete_old extends rcube_plugin
 				if ($scnt) {
 					$mcnt += $sch->count();
 					$uids = $sch->get();
-					$this->logger('searchgetg '.$fld.$bd.' ', $uids);
+	//				$this->logger('searchgetg '.$fld.$bd.' ', $uids);
 					if (!$ck) {
 						if ($ffd) {
 							$storage->set_flag($uids, 'DELETED', $fld, true);
@@ -193,7 +191,7 @@ class delete_old extends rcube_plugin
 			if ($scnt) {
 				$mcnt += $sch->count();
 				$uids = $sch->get();
-				$this->logger('searchget-'.$F.$bd.' ', $uids);
+	//			$this->logger('searchget-'.$F.$bd.' ', $uids);
 				if (!$ck) {
 					if ($ffd) {
 						$storage->set_flag($uids, 'DELETED', $F, true);
