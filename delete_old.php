@@ -217,7 +217,7 @@ class delete_old extends rcube_plugin
 	private function whenOpts ($val, $glb=false)
 	{
 		$wray = array('default'=>0,'never'=>-1,'1_week'=>7,'2_week'=>14,'1_month'=>30,
-			'2_month'=>60,'6_month'=>182,'1_year'=>364,'2_year'=>728,'3_year'=>1093,'4_year'=>1457);
+			'2_month'=>60,'6_month'=>182,'1_year'=>364,'2_year'=>728,'3_year'=>1093,'4_year'=>1457,'5_year'=>1821,'10_year'=>3642,'15_year'=>5464);
 		if ($glb) {
 			array_shift($wray);
 			array_splice($wray, 1, 2);
