@@ -24,6 +24,9 @@ $labels['1_year'] = '1 Year';
 $labels['2_year'] = '2 Years';
 $labels['3_year'] = '3 Years';
 $labels['4_year'] = '4 Years';
+$labels['5_year'] = '5 Years';
+$labels['10_year'] = '10 Years';
+$labels['15_year'] = '15 Years';
 
 $messages['checking'] = 'Checking for old messages...';
 $messages['deleting'] = 'Deleting old messages...';
