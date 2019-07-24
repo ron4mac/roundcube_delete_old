@@ -1,0 +1,15 @@
+.listing.iconized tr.deloldg>td.section:before {
+	content:"\f2cd";
+}
+.toolbar a.button.clean:before {
+	content:"\f2cd";
+}
+#dstus.busy:before {
+	content: "\f110";
+	display: inline-block;
+	font-family: Icons;
+	font-weight: 900;
+	animation: spinner-border 1.5s infinite linear;
+	height: 100%; 
+	margin-right: 4px;
+}
