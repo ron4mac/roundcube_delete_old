@@ -5,7 +5,7 @@ $labels['buttontext'] = 'Nettoyer';
 $labels['numdeleted'] = ' courriels ont été supprimés avec succès.';
 $labels['numchecked'] = ' courriels pourraient être supprimés.';
 
-$labels['deloldmsgs'] = 'Supprimer les anciens courriels';
+$labels['deloldmsgs'] = 'Politique de suppression';
 $labels['deleteold'] = 'Supprimer après';
 $labels['whenauto'] = 'Suppression automatique';
 $labels['check'] = 'Chercher';
