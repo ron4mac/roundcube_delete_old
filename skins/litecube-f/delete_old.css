@@ -1,0 +1,7 @@
+#messagetoolbar a.button.clean {
+	background: url(Clear32.png) 0 0 no-repeat !important;
+	background-size: 24px !important;
+	background-position-x: center !important;
+	background-position-y: top !important;
+}
+
