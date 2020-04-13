@@ -4,7 +4,7 @@
     "description": "Plugin adds possibility to auto-delete messages in folders that are older than a specfied amount.",
     "keywords": ["autodelete","auto-delete","delete","old messages"],
     "license": "GPLv3+",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Ron Crans",
