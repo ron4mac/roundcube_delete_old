@@ -3,12 +3,17 @@
 $labels['buttontitle'] = 'Delete old messages';
 $labels['buttontext'] = 'Clean';
 $labels['numdeleted'] = ' messages were sucessfully deleted.';
+$labels['nummoved'] = ' messages were moved to local storage.';
+$labels['numzipped'] = ' messages were zipped and downloaded.';
 $labels['numchecked'] = ' messages could be deleted.';
 
 $labels['deloldmsgs'] = 'Delete Old Messages';
 $labels['deleteold'] = 'Delete messages after';
 $labels['whenauto'] = 'Automatic deletion';
+$labels['fuldelete'] = 'Truly delete messages';
 $labels['check'] = 'Check';
+$labels['dnzip'] = 'Download';
+$labels['movloc'] = 'Move to Local';
 $labels['delete'] = 'Delete';
 $labels['autonever'] = 'Never';
 $labels['autologin'] = 'At Login';
@@ -24,11 +29,10 @@ $labels['1_year'] = '1 Year';
 $labels['2_year'] = '2 Years';
 $labels['3_year'] = '3 Years';
 $labels['4_year'] = '4 Years';
-$labels['5_year'] = '5 Years';
-$labels['10_year'] = '10 Years';
-$labels['15_year'] = '15 Years';
 
 $messages['checking'] = 'Checking for old messages...';
+$messages['zipping'] = 'Zipping old messages...';
+$messages['moving'] = 'Moving old messages to local storage...';
 $messages['deleting'] = 'Deleting old messages...';
 $messages['dlgtxt'] = '<div id="dstus">Delete (or just check for) old messages.</div>';
 
