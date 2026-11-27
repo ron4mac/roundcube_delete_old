@@ -4,6 +4,7 @@
     "description": "Plugin adds possibility to auto-delete messages in folders that are older than a specfied amount.",
     "keywords": ["roundcube","plugin","autodelete","auto-delete","delete","old messages"],
     "license": "GPL-3.0-or-later",
+    "version": "1.1.1",
     "authors": [
         {
             "name": "Ron Crans",
