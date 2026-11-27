@@ -5,10 +5,10 @@ A Roundcube plugin to delete messages older than configurable timespans.
 Add folder to the roundcube plugins folder as *delete_old*.
 Add name (delete_old) to the plugins list in the roundcube config file.
 
-### Confiuration
+### Configuration
 In *Settings->Delete Old Messages*, you can specify a global timespan before messages will be deleted in any folder that has no setting of its own. And you can specify whether and when an automatic deletion will take place.
 
 Each folder (in *Settings->Folders*) can have a timespan setting for deletion.
 
 ### Use
-If automatic deletion is configured, messages older than the specified timespan(s) will be deleted on either login or logout (as configured). You can check for or delete expired messages at any time from an icon on the Mail Toolbar.
+If automatic deletion is configured, messages older than the specified timespan(s) will be deleted on either login or logout (as configured). You can check for or delete expired messages at any time from an icon on the Mail Toolbar. There is also the option to move the emails to a local folder or download them all in a zip.
